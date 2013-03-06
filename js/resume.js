@@ -35,7 +35,7 @@ window.onload = function()
 		[paper.circle(257, 257, 50),paper.image("images/skills.png", 227, 227, 61, 61),135,"#skills"],
 		[paper.circle(543, 257, 50),paper.image("images/education.png", 510, 226, 65, 63),45,"#education"],
 		[paper.circle(257, 543, 50),paper.image("images/experience.png", 393, 1500, 15, 100),225,"#experience"],
-		[paper.circle(543, 543, 50),paper.image("images/experience.png", 393, 1500, 15, 100),315,"#experience"]
+		[paper.circle(543, 543, 50),paper.image("images/experience.png", 393, 1500, 15, 100),315,"#bio"]
 	];
 
 	for(var i = 0; i < items.length; i++)
