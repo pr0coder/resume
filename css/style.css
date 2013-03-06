@@ -1,0 +1,65 @@
+
+body
+{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	color: #444444;
+}
+h2
+{
+	font-size:36px;
+	margin-bottom:30px;
+	color:#f63;
+}
+#name
+{
+	font-size:45px;
+	color:#333;
+}
+h3
+{
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size:28;
+	font-weight:bold;
+}
+h4
+{
+	font-size:22px;
+	margin-bottom:20px;
+	color:#f93;
+}
+p
+{
+	color:#716F6F;
+	margin-left:10px;
+	line-height:150%;
+}
+.year
+{
+	margin-top:-15px;
+	margin-bottom:10px;
+	color:#999;
+	font-size:14px;
+}
+#raphael
+{
+	width:700px;
+	height:700px;
+	float:left;
+}
+#content
+{
+	margin-top:320px;
+	margin-bottom:30px;
+	width:500px;
+	float:left;
+	overflow:visible;
+}
+.arrow
+{
+	height:25px;
+	width:25px;
+	vertical-align:baseline;
+	margin-left:10px;
+}
