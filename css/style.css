@@ -63,3 +63,8 @@ p
 	vertical-align:baseline;
 	margin-left:10px;
 }
+#bio img
+{
+	float:right;
+	margin:10px;
+}
