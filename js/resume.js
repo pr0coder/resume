@@ -29,12 +29,12 @@ window.onload = function()
 	// I decided to use images instead of text, since they render smoother and don't "jiggle"
 	var items = [
 		[paper.circle(400, 200, 50),paper.image("images/experience.png", 393, 150, 15, 100),90,"#experience"],
-		[paper.circle(600, 400, 50),paper.image("images/welcome.png", 550, 393, 100, 14),0,"#welcome"],
+		[paper.circle(600, 400, 50),paper.image("images/welcome.png", 555, 392, 89, 16),0,"#welcome"],
 		[paper.circle(400, 600, 50),paper.image("images/contact.png", 392, 558, 16, 85),270,"#contact"],
 		[paper.circle(200, 400, 50),paper.image("images/references.png", 153, 393, 93, 13),180,"#references"],
 		[paper.circle(257, 257, 50),paper.image("images/skills.png", 227, 227, 61, 61),135,"#skills"],
 		[paper.circle(543, 257, 50),paper.image("images/education.png", 510, 226, 65, 63),45,"#education"],
-		[paper.circle(257, 543, 50),paper.image("images/bio.png", 223, 509, 67, 67),225,"#bio"],
+		[paper.circle(257, 543, 50),paper.image("images/bio.png", 234, 525, 41, 41),225,"#bio"],
 		[paper.circle(543, 543, 50),paper.image("images/experience.png", 393, 150, 15, 100),315,"#bio"]
 	];
 
@@ -75,7 +75,7 @@ function transition(selector)
 		$(selector).fadeIn(2000);
 	},2000);
 
-	
+	$("html, body").animate({ scrollTop: 0 }, "slow");
 }
 $(document).ready(function(){
 	$("#skills p").slideUp();
