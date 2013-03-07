@@ -30,12 +30,12 @@ window.onload = function()
 	var items = [
 		[paper.circle(400, 200, 50),paper.image("images/experience.png", 393, 150, 15, 100),90,"#experience"],
 		[paper.circle(600, 400, 50),paper.image("images/welcome.png", 550, 393, 100, 14),0,"#welcome"],
-		[paper.circle(400, 600, 50),paper.image("images/education.png", 510, 226, 65, 63),270,"#welcome"],
-		[paper.circle(200, 400, 50),paper.image("images/experience.png", 393, 1500, 15, 100),180,"#experience"],
+		[paper.circle(400, 600, 50),paper.image("images/contact.png", 392, 558, 16, 85),270,"#contact"],
+		[paper.circle(200, 400, 50),paper.image("images/references.png", 153, 393, 93, 13),180,"#references"],
 		[paper.circle(257, 257, 50),paper.image("images/skills.png", 227, 227, 61, 61),135,"#skills"],
 		[paper.circle(543, 257, 50),paper.image("images/education.png", 510, 226, 65, 63),45,"#education"],
-		[paper.circle(257, 543, 50),paper.image("images/experience.png", 393, 1500, 15, 100),225,"#experience"],
-		[paper.circle(543, 543, 50),paper.image("images/experience.png", 393, 1500, 15, 100),315,"#bio"]
+		[paper.circle(257, 543, 50),paper.image("images/bio.png", 223, 509, 67, 67),225,"#bio"],
+		[paper.circle(543, 543, 50),paper.image("images/experience.png", 393, 150, 15, 100),315,"#bio"]
 	];
 
 	for(var i = 0; i < items.length; i++)
